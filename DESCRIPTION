@@ -1,15 +1,13 @@
 Package: UsefulSnippets
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.0.2
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Jan Petter",
+           family = "Iversen",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "jan.p.iversen@gmail.com")
+Description: This package adds useful R snippets to your library.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -17,4 +15,5 @@ RoxygenNote: 7.1.0
 URL: https://github.com/jpiversen/UsefulSnippets
 BugReports: https://github.com/jpiversen/UsefulSnippets/issues
 Suggests: 
-    testthat
+    testthat,
+    covr

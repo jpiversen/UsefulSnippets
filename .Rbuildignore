@@ -1,2 +1,6 @@
 ^UsefulSnippets\.Rproj$
 ^\.Rproj\.user$
+^codecov\.yml$
+^README\.Rmd$
+^LICENSE\.md$
+^\.pre-commit-config\.yaml$
