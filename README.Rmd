@@ -54,16 +54,18 @@ Now the snippets should be installed at your computer.
 
 Currently, the following snippets are included: 
 
-* snippet_connection - Create a connection object to a SQL Database
-* snippet_options - Common options I set in most R scripts
-
+| Snippet | Description |
+|:--------|:------------|
+|snippet_connection | Create a connection object to a SQL Database |
+| snippet_options | Common options I set in most R scripts |
 
 ## Support functions
 
 The package also include the following support functions:
 
-* `find_snippet_path()` - Returns the path to where your 
-* `custom_snippet_file_exsists()`
+* `find_snippet_path()` - Returns the path to where your custom r.snippet file
+is located, or should be located if no such file exists *
+`custom_snippet_file_exsists()` - Checks whether a custom r.snippet file exists
 
 ## Deleting the snippets
 
@@ -91,7 +93,8 @@ the package and submit them in a PR with me on review.
 
 ## Future plans
 
-The plan is to ultimately include a full ML setup as a snippet, to save time.
+The plan is to ultimately include a full ML setup as a snippet, to get quickly
+up and running when building predictive models.
 
 
 ## Version / change log
